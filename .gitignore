@@ -1,0 +1,9 @@
+raw_data_dir
+data-*
+check*
+.ipynb_checkpoints
+.idea
+model*
+notes
+tmp/
+history
