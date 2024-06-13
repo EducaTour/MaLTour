@@ -1,5 +1,4 @@
 raw_data_dir
-data-*
 check*
 .ipynb_checkpoints
 .idea
@@ -8,3 +7,5 @@ notes
 tmp/
 history
 __pycache__
+Data*
+*data*
