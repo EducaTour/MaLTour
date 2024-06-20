@@ -5,7 +5,7 @@ In creating machine learning models for EducaTour, we created 3 different models
 [1. EfficentNetV2B0](#efficientnetv2b0)<br>
 [2. Xception](#xception)<br>
 [3. DenseNet121](#densenet121)<br>
-[4. Model Comparison](#)<br>
+[4. Model Report Comparison](#)<br>
 [5. Model Inference Strategy](#)<br>
 [6. Model Information](#model-information)<br>
 [7. Summary](#summary)<br>
@@ -27,20 +27,35 @@ Source: [Review: Xception — With Depthwise Separable Convolution, Better Than 
 ## DenseNet121
 DenseNet121 (Dense Convolutional Network) is an architecture that focuses on making the deep learning networks go even deeper, but at the same time making them more efficient to train, by using shorter connections between the layers. DenseNet is a convolutional neural network where each layer is connected to all other layers that are deeper in the network, that is, the first layer is connected to the 2nd, 3rd, 4th and so on, the second layer is connected to the 3rd, 4th, 5th and so on. This is done to enable maximum information flow between the layers of the network. To preserve the feed-forward nature, each layer obtains inputs from all the previous layers and passes on its own feature maps to all the layers that will come after it. Source: [Creating DenseNet 121 with TensorFlow](https://towardsdatascience.com/creating-densenet-121-with-tensorflow-edbc08a956d8)
 
-## Training and Validation Accuracy & Loss
+## Model Report Comparison
+### Training and Validation Accuracy & Loss
+#### EfficientNetV2B0
+#### Xception
 ![alt text][acc-n-loss]
+#### DenseNet121
 
-## Confusion Matrix Comparison
-### Before Fine Tuned
+### Confusion Matrix Comparison
+#### EfficientNetV2B0
+#### Xception
+##### Before Fine Tuned
 ![alt text][cm-1]
-### After Fine Tuned
+##### After Fine Tuned
 ![alt text][cm-2]
+#### DenseNet121
 
-## Prediction Preview Comparison
-### Before Fine Tuned
+### Prediction Preview Comparison
+#### EfficientNetV2B0
+#### Xception
+##### Before Fine Tuned
 ![alt text][pre-1]
-### After Fine Tuned
+##### After Fine Tuned
 ![alt text][pre-2]
+#### DenseNet121
+
+### Undefined Data Test Comparison
+#### EfficientNetV2B0
+#### Xception
+#### DenseNet121
 
 ## Model Information
 You can access all the three models [here](https://drive.google.com/drive/folders/10V5Z3o4rDMZQO_G7K_Dt6571nVGkCzN4?usp=sharing)
