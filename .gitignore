@@ -1,5 +1,4 @@
 raw_data_dir
-data-*
 check*
 .ipynb_checkpoints
 .idea
@@ -7,3 +6,7 @@ model*
 notes
 tmp/
 history
+.DS_Store
+__pycache__
+Data*
+*data*
