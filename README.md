@@ -2,13 +2,13 @@
 In creating machine learning models for EducaTour, we created 3 different models, all three using the transfer learning method. Where the three pre-trained model architectures are EfficientNetV2B0, Dense121, and Xception. The aim of making these three models is to compare which model is the best of the three models. The elements reviewed are model accuracy and model size. A good model is a model that has the highest accuracy and the smallest size.
 
 ## Table of Contents
-[1. EfficentNetV2B0](## EfficientNetV2B0)
-[2. Xception](## Xception)
-[3. DenseNet121](## DenseNet121)
-[4. Model Comparison]
-[5. Model Inference Strategy]
-[6. Model Information](## Model Information)
-[7. Summary](## Summary)
+[1. EfficentNetV2B0](##EfficientNetV2B0)<br>
+[2. Xception](##Xception)<br>
+[3. DenseNet121](##DenseNet121)<br>
+[4. Model Comparison](#)<br>
+[5. Model Inference Strategy](#)<br>
+[6. Model Information](##Model-Information)<br>
+[7. Summary](##Summary)<br>
 
 ## EfficientNetV2B0
 EfficientNet was created by Mingxing Tan and Quoc V. Le from Google in 2019. EfficientNet uses compound coefficients to uniformly scale the depth (number of layers), breadth (number of channels), and resolution of input images on a CNN network. This is different from other architectural approaches which carry out this scaling irregularly. From the research results, EfficientNet's accuracy on ImageNet data significantly outperforms other CNN architectures. Therefore, the EfficientNet model architecture was chosen to create a model using the transfer learning methods.
