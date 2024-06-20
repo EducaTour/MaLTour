@@ -5,8 +5,9 @@ In creating machine learning models for EducaTour, we created 3 different models
 [1. EfficentNetV2B0](#efficientnetv2b0)<br>
 [2. Xception](#xception)<br>
 [3. DenseNet121](#densenet121)<br>
-[4. Model Report Comparison](#)<br>
-[5. Model Inference Strategy](#)<br>
+[4. Model Report Comparison](#model-report-comparison)<br>
+  - [Training and Validation Accuracy and Loss](#model-report-comparison-training-and-validation-accuracy-&-loss)<br>
+[5. Model Inference Strategy](#model-inference-strategy)<br>
 [6. Model Information](#model-information)<br>
 [7. Summary](#summary)<br>
 
@@ -30,32 +31,42 @@ DenseNet121 (Dense Convolutional Network) is an architecture that focuses on mak
 ## Model Report Comparison
 ### Training and Validation Accuracy & Loss
 #### EfficientNetV2B0
+![alt text][efficient-acc-n-loss]
 #### Xception
 ![alt text][acc-n-loss]
 #### DenseNet121
+![alt text][dn-acc]
+![alt text][dn-loss]
 
 ### Confusion Matrix Comparison
 #### EfficientNetV2B0
+![alt text][cm-efficient-net]
 #### Xception
 ##### Before Fine Tuned
 ![alt text][cm-1]
 ##### After Fine Tuned
 ![alt text][cm-2]
 #### DenseNet121
+![alt text][cm-dense-net]
 
 ### Prediction Preview Comparison
 #### EfficientNetV2B0
+![alt text]
 #### Xception
 ##### Before Fine Tuned
 ![alt text][pre-1]
 ##### After Fine Tuned
 ![alt text][pre-2]
 #### DenseNet121
+![alt text]
 
 ### Undefined Data Test Comparison
 #### EfficientNetV2B0
+![alt text][undefined-efficient]
 #### Xception
+![alt text][undefined-xception]
 #### DenseNet121
+![alt text][undefined-dense]
 
 ## Model Information
 You can access all the three models [here](https://drive.google.com/drive/folders/10V5Z3o4rDMZQO_G7K_Dt6571nVGkCzN4?usp=sharing)
@@ -78,8 +89,16 @@ Consistent Environment.
 
 [efficient-arch]: https://miro.medium.com/v2/resize:fit:2000/format:webp/1*rnhgFRXetwD8PvxhZIpwIA.png
 [xception-arch]: https://miro.medium.com/v2/resize:fit:863/1*VvBTMkVRus6bWOqrK1SlLQ.png "Xception Architecture"
-[acc-n-loss]: ./assets/__results___56_0.png "Training and Validation Accuracy & Loss"
-[cm-1]: ./assets/__results___46_0.png "Confusion Matrix Before Fine Tuned"
-[cm-2]: ./assets/__results___65_0.png "Confusion Matrix After Fine Tuned"
-[pre-1]: ./assets/__results___42_0.png "Prediction Preview Before Fine Tuned"
-[pre-2]: ./assets/__results___62_0.png "Prediction Preview After Fine Tuned"
+[acc-n-loss]: ./assets/__results___56_0.png "Xception Training and Validation Accuracy & Loss"
+[dn-acc]: ./assets/densenet_acc.png "DenseNet121 Training and Validation Accuracy"
+[dn-loss]: ./assets/densenet_loss.png "DenseNet121 Training and Validation Loss"
+[efficient-acc-n-loss]: ./assets/efficientnet_trainval_plot.png "EfficientNetV2b0 Training and Validation Accuracy & Loss"
+[cm-1]: ./assets/__results___46_0.png "Confusion Matrix Xception Before Fine Tuned"
+[cm-2]: ./assets/__results___65_0.png "Confusion Matrix Xception After Fine Tuned"
+[cm-dense-net]: ./assets/densenet_cm.png "Confusion Matrix DenseNet121"
+[cm-efficient-net]: ./assets/efficientnet_cm.png "Confusion Matrix EfficientNetV2b0"
+[pre-1]: ./assets/__results___42_0.png "Xception Prediction Preview Before Fine Tuned"
+[pre-2]: ./assets/__results___62_0.png "Xception Prediction Preview After Fine Tuned"
+[undefined-efficient]: ./assets/efficientnet_undef_test.png "EfficientNetV2b0 test on undefined data"
+[undefined-xception]: ./assets/xception_undef_test.png "Xception test on undefined data"
+[undefined-dense]: ./assets/dense_net_undef_test.png "DenseNet121 test on undefined data"
