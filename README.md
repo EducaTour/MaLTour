@@ -1,5 +1,5 @@
-# EducaTour Modelv1 (Transfer Learning from Xception)
- Xception model stands for "Extreme Inception." The Inception architecture is used as a foundation, but depthwise separable convolutions are used instead of the regular Inception modules. A more effective model with enhanced performance is the end outcome of this.
+# EducaTour Model (Transfer Learning from EfficientNetV2B0)
+EfficientNet was created by Mingxing Tan and Quoc V. Le from Google in 2019. EfficientNet uses compound coefficients to uniformly scale the depth (number of layers), breadth (number of channels), and resolution of input images on a CNN network. This is different from other architectural approaches which carry out this scaling irregularly. From the research results, EfficientNet's accuracy on ImageNet data significantly outperforms other CNN architectures. Therefore, the EfficientNet model architecture was chosen to create a model using the transfer learning methods.
 
 ### What is Depthwise Separable Convolutions?
 Depthwise Separable Convolutions factorize a standard convolution into a depthwise convolution (which applies a single filter to each input channel) followed by a pointwise convolution (which applies a 1x1 convolution to combine the outputs from the depthwise convolution).
