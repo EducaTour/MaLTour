@@ -8,10 +8,8 @@ In creating machine learning models for EducaTour, we created 3 different models
 
 ## Additional Strategy
 For the EfficientNet model, there was a particular strategy, Which is to train several layers in the network, namely the layers at the back and the fully connected/DNN layer. In this case, the number of back layers to be trained with the prepared training set must be determined first. In this strategy, 125 back layers in the EfficientNet architecture are retrained and the rest are retained (frozen).
-
-For the Xception model, the strategy was use depthwise separable convolutions are used instead of the regular Inception modules. So a more effective model with enhanced performance is the end outcome of this. Depthwise Separable Convolutions factorize a standard convolution into a depthwise convolution (which applies a single filter to each input channel) followed by a pointwise convolution (which applies a 1x1 convolution to combine the outputs from the depthwise convolution). 
-![alt text][xception-arch]
-Source: [Review: Xception — With Depthwise Separable Convolution, Better Than Inception-v3 (Image Classification)](https://towardsdatascience.com/review-xception-with-depthwise-separable-convolution-better-than-inception-v3-image-dc967dd42568)
+![alt text][efficient-arch]
+Source: [Complete Architectural Details of all EfficientNet Models](https://towardsdatascience.com/complete-architectural-details-of-all-efficientnet-models-5fd5b736142)
 
 ## Model Information
 You can access all the three models [here](https://drive.google.com/drive/folders/10V5Z3o4rDMZQO_G7K_Dt6571nVGkCzN4?usp=sharing)
@@ -31,7 +29,7 @@ You can access all the three models [here](https://drive.google.com/drive/folder
 ### After Fine Tuned
 ![alt text][pre-2]
 
-[xception-arch]: https://miro.medium.com/v2/resize:fit:863/1*VvBTMkVRus6bWOqrK1SlLQ.png "Xception Architecture"
+[efficient-arch]: https://miro.medium.com/v2/resize:fit:2000/format:webp/1*rnhgFRXetwD8PvxhZIpwIA.png
 [acc-n-loss]: ./assets/__results___56_0.png "Training and Validation Accuracy & Loss"
 [cm-1]: ./assets/__results___46_0.png "Confusion Matrix Before Fine Tuned"
 [cm-2]: ./assets/__results___65_0.png "Confusion Matrix After Fine Tuned"
