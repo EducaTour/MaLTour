@@ -55,7 +55,7 @@ DenseNet121 (Dense Convolutional Network) is an architecture that focuses on mak
 
 ### Prediction Preview Comparison
 #### EfficientNetV2B0
-![alt text]
+![alt text][pre-3]
 #### Xception
 ##### Before Fine Tuned
 ![alt text][pre-1]
@@ -103,6 +103,7 @@ Consistent Environment.
 [cm-efficient-net]: ./assets/efficientnet_cm.png "Confusion Matrix EfficientNetV2b0"
 [pre-1]: ./assets/__results___42_0.png "Xception Prediction Preview Before Fine Tuned"
 [pre-2]: ./assets/__results___62_0.png "Xception Prediction Preview After Fine Tuned"
+[pre-3]: ./assets/model_2_classification_result.png "EfficientNetV2b0 Prediction Preview After Fine Tuned"
 [undefined-efficient]: ./assets/efficientnet_undef_test.png "EfficientNetV2b0 test on undefined data"
 [undefined-xception]: ./assets/xception_undef_test.png "Xception test on undefined data"
 [undefined-dense]: ./assets/dense_net_undef_test.png "DenseNet121 test on undefined data"
