@@ -5,10 +5,14 @@ In creating machine learning models for EducaTour, we created 3 different models
 [1. EfficentNetV2B0](#efficientnetv2b0)<br>
 [2. Xception](#xception)<br>
 [3. DenseNet121](#densenet121)<br>
-[4. Model Report Comparison](#model-report-comparison)<br>
-  - [Training and Validation Accuracy and Loss](#model-report-comparison-training-and-validation-accuracy-&-loss)<br>
+[4. Model Report Comparison](#model-report-comparison)
+  - [Training and Validation Accuracy and Loss](#training-and-validation-accuracy--loss)<br>
+  - [Confusion Matrix](#confusion-matrix-comparison)<br>
+  - [Prediction Preview](#prediction-preview-comparison)<br>
+  - [Test on Undefined Data](#undefined-data-test-comparison)<br>
+  
 [5. Model Inference Strategy](#model-inference-strategy)<br>
-[6. Model Information](#model-information)<br>
+[6. Access to Models](#access-to-models)<br>
 [7. Summary](#summary)<br>
 
 ## EfficientNetV2B0
@@ -68,7 +72,7 @@ DenseNet121 (Dense Convolutional Network) is an architecture that focuses on mak
 #### DenseNet121
 ![alt text][undefined-dense]
 
-## Model Information
+## Access to Models
 You can access all the three models [here](https://drive.google.com/drive/folders/10V5Z3o4rDMZQO_G7K_Dt6571nVGkCzN4?usp=sharing)
 
 ## Model Inference Strategy
